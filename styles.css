@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Brutal;
+    src: url("BrutalType-Medium.ttf") format("ttf");
+  }
+  
+  body {
+    font-family: Brutal, sans-serif;
+  }
+
+.container{
+    display:flex;
+    background-color: aqua;
+}
+
+  .item{
+width:20px;
+height:50px;
+background-color: blue;
+color: azure;
+text-align: center;
+line-height:50px;
+margin: 5px;
+  }
+  .secondblock{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .thirdblock{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .fourthbox{
+    display: flex;
+    justify-content: center;
+  }
+
+  .zagolovok{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: center;
+    background-color: honeydew;
+  }
